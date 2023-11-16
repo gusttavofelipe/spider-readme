@@ -1,23 +1,25 @@
-## TDD Project
+## Spider Project
 
 ## Resumo
-Este documento traz informações do desenvolvimento de uma API em FastAPI a partir do TDD.
+O Spider é um projeto dedicado à extração de informações sobre
+movimentação de processos decorrentes do Tribunal de Justiça
 
-## Objetivo
+## Objetivo *
+Extrair informações de movimentação de processos tanto em tramitação como arquivados do tribunal de justiça 
 
 
-## O que é?
+## O que é? *
 Uma aplicação que:
-- tem fins educativos;
-- permite o aprendizado prático sobre TDD com FastAPI + Pytest;
+- permite obter informações de maneira dinâmica e escalavel;
+- possibilita aramazenar, classificar e analisar os dados obtidos;
 
-## O que não é?
+## O que não é? *
 Uma aplicação que:
-- se comunica com apps externas;
+- ;
 
-
-## Solução Proposta
-Desenvolvimento de uma aplicação simples a partir do TDD, que permite entender como criar tests com o `pytest`. Construindo testes de Schemas, Usecases e Controllers (teste de integração).
+## Solução Proposta *
+Desenvolvimento de uma aplicação capaz acessar e obter dados de Pje's correspondentes
+ao estado solicitado, armazenamdo e classificando os dados. Inicialmente desenvolvido para o estado do Piauí
 
 ### Arquitetura
 |![C4](/docs/img/store.drawio.png)|
