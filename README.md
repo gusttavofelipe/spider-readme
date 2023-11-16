@@ -1,25 +1,23 @@
-## Spider Project
+## TDD Project
 
-## Resumo*
-Spider visa automatizar a obtenção de informações sobre processos no Tribunal
-de Justiça utilizando a platarfoma digital Pje..
+## Resumo
+Este documento traz informações do desenvolvimento de uma API em FastAPI a partir do TDD.
 
-## Objetivo *
-Extrair informações de movimentação de processos tanto em tramitação como arquivados do tribunal de justiça 
-(PIAUI)
+## Objetivo
 
-## O que é? *
+
+## O que é?
 Uma aplicação que:
-- permite obter informações de maneira dinâmica e escalavel;
-- possibilita uma análise detalhada e organizada das informações obtidas;
+- tem fins educativos;
+- permite o aprendizado prático sobre TDD com FastAPI + Pytest;
 
-## O que não é? *
+## O que não é?
 Uma aplicação que:
-- ;
+- se comunica com apps externas;
 
-## Solução Proposta *
-Desenvolvimento de uma aplicação capaz acessar e obter dados de Pje's correspondentes ao estado
-solicitado, armazenando e classificando os dados. Inicialmente desenvolvida para o estado do Piauí
+
+## Solução Proposta
+Desenvolvimento de uma aplicação simples a partir do TDD, que permite entender como criar tests com o `pytest`. Construindo testes de Schemas, Usecases e Controllers (teste de integração).
 
 ### Arquitetura
 |![C4](/docs/img/store.drawio.png)|
